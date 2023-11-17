@@ -6,13 +6,17 @@ Minimal light [Logseq](https://logseq.com/) theme with bold typography and cyril
 
 ## Features
 
+### Bullet drill-down enhancement
+![logseq-slavsko-theme-screenshot4](./img/logseq-slavsko-theme-screenshot4-bullets.png)
+
+When drilled down, the parent bullet has its bullet hidden, font size increased, guideline removed.
+Courtesy of [@Zyrohex](https://discuss.logseq.com/t/style-changes-when-drilling-down-a-block-level/22051) from Logseq forums.
+
 ### Better looking tables
 ![logseq-slavsko-theme-screenshot2-tables](./img/logseq-slavsko-theme-screenshot2-tables.jpg)
 
-### Bullet drill-down enhancement
-When drilled down, the parent bullet has its bullet hidden, font size incerased, guideline removed, and various alignment tweaks to get it inline with the breadcrumb + child blocks.
 
-Courtesy of [@Zyrohex](https://discuss.logseq.com/t/style-changes-when-drilling-down-a-block-level/22051) from Logseq forums.
+
 
 ### Hidden query builder
 ![logseq-slavsko-theme-screenshot3-query](./img/logseq-slavsko-theme-screenshot3-query.jpg)
