@@ -1,7 +1,7 @@
 {
     "name": "slavsko",
     "author": "Stan Voo",
-    "version": "1",
+    "version": "1.0.0",
     "description": "Minimal light Logseq theme with bold typography and cyrillic font support.",
     "logseq": {
       "themes": [

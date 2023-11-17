@@ -29,9 +29,13 @@ I've hidden the simple query builder so that with queries pages look cleaner. If
 
 ## Installation
 
-The theme **is not** yet available on the Logseq marketplace. It's just a CSS file you copy to your Logseq Vault folder inside 'logseq' directory. The path should be like `/path-to-your-logseq/vault-name/logseq/custom.css`. 
+Slavsko is available on the Logseq marketplace. To see the marketplace, choose Plugins from Logseq's main menu.
 
-Alternatively you can search for a `custom.css` file from within your logseq like any other page and copy-paste the code from my [custom.css](custom.css) file.
+> If you don’t see Plugins on the main menu, you will need to enable plug-ins: go to Logseq Settings from the main menu, then the Advanced section, and enable the Plug-in system. You will then need to restart Logseq.
+
+If you don’t want to use the marketplace, you can copy `custom.css` file to your Logseq Vault folder inside 'logseq' directory. The path should be like `/path-to-your-logseq/vault-name/logseq/custom.css`. 
+
+Alternatively you can search for a `custom.css` file from within your logseq like any other page (you also can access this file from Settings) and copy-paste the code from the theme's [custom.css](custom.css) file.
 
 ## Plugin compatibility
 
