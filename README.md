@@ -24,7 +24,7 @@ The theme **is not** yet available on the Logseq marketplace. It's just a CSS fi
 Licensed under the MIT License.
 
 ## Slavsko mountains
-[slavsko](./img/slavsko.jpeg)
+![slavsko](./img/slavsko.jpeg)
 
 *Photo by [@Gelo Korpstevy](https://www.instagram.com/gelo_korpstevy/)*
 
