@@ -2,13 +2,13 @@
     "name": "slavsko",
     "author": "Stan Voo",
     "version": "1",
-    "description": "Minimal light Logseq theme with bold typography. Cyrillic font support.",
+    "description": "Minimal light Logseq theme with bold typography and cyrillic font support.",
     "logseq": {
       "themes": [
         {
           "name": "Slavsko - Light",
           "url": "./custom.css",
-          "description": "Minimal light Logseq theme with bold typography. Cyrillic font support.",
+          "description": "Minimal light Logseq theme with bold typography and cyrillic font support.",
           "mode": "light"
         }
       ],

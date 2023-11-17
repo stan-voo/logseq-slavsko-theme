@@ -58,8 +58,3 @@ Huge kudos to the theme creators 💛
 If you find a bug, file it under "Issues" with a short description and a screenshot.
 If you'd like to improve on the theme, please use a merge request.
 
-## Slavsko mountains in summer
-![slavsko](./img/slavsko.jpeg)
-
-*Photo by [@Gelo Korpstevy](https://www.instagram.com/gelo_korpstevy/)*
-
