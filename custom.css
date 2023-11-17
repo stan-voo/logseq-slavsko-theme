@@ -211,10 +211,6 @@ a.page-ref {
 	font-feature-settings: "tnum";
 }
 
-.table-wrapper :is(tr,tr:nth-child(even)) {
-	background: inherit;
-}
-
 .table-wrapper tbody {
 	border-top: 1px var(--table-border-color) solid;
 }

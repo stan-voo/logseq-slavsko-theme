@@ -1,8 +1,13 @@
 # Logseq Slavsko Theme
 
-A Logseq theme with bold typography. I decided to name it after a skiing resort town in Ukraine because the titles are bold like mountains.
+A Logseq theme with bold typography. I decided to name it after a skiing resort town in Ukraine because the titles are bold like mountains. Most of the code I got from the [miA theme](https://github.com/playerofgames/logseq-mia-theme). Huge kudos 💌 to the theme creators. 
+Also I am using the [Onest font](https://fonts.google.com/specimen/Onest) from Google Fonts, which looks beautifully with ukrainian cyrillic.
 
 ![logseq-slavsko-theme-screenshot1](./img/logseq-slavsko-theme-screenshot1.png)
+
+## Features
+Better looking tables:
+![logseq-slavsko-theme-screenshot2-tables](./img/logseq-slavsko-theme-screenshot2-tables.jpg)
 
 ## Installation
 
