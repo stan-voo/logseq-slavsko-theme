@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
+
+/* Colours */
+.light, .light-theme, .white-theme, html[data-theme=light] {
+  --accent-color: #0b82b9;
+	--accent-color-rgb: 11, 130, 185;
+  --accent-dark-color: #3982C2;
+
+  --ls-tertiary-background-color: #FBFBFB;
+	--ls-quaternary-background-color: #C8C9C8;
+
+  --ls-primary-text-color: #1a1a1a;
+
+}
+
+
+/*==================================================*/
+/* ==== custom tags https://discuss.logseq.com/t/how-do-i-change-some-tag-colours/637 ===*/
+/*==================================================*/
+a.tag {
+    border-radius: 3px;
+    color: #636e72;
+  	font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 0.8rem;
+    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    text-transform: uppercase;
+    transition: .3s;
+    white-space: nowrap;
+  	border-radius: 1rem 0.4rem 0.4rem 1rem;
+}
+/* hide bullets for first level blocks*/
+/* https://discuss.logseq.com/t/hybrid-mode-hide-bullet-points-for-first-level-blocks-with-no-children/20641?u=alex0&ref=logseqtimes.com */
+
+:root:not(.is-native-android) .ls-block[haschild="false"][level="1"]:not([data-refs-self*="@"]) > div > div > a > .bullet-container {
+    display: none !important;  
+}
+
+/* drill-down pages styling start */
+/* https://discuss.logseq.com/t/hybrid-mode-hide-bullet-points-for-first-level-blocks-with-no-children/20641?u=alex0&ref=logseqtimes.com */
+
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.flex.flex-row.pr-2>.block-control-wrap {
+    display: none;
+}
+
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.flex.flex-row.pr-2 .awLi-icon[data-is-emoji=true] {
+    font-size: 32px !important;
+    margin-right: 28px;
+}
+
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.flex.flex-row.pr-2 {
+    font-size: 32px !important;
+    position: relative;
+    left: 10px;
+}
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.block-children-container {
+    margin-left: 0px;
+}
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.flex.flex-row.pr-2 :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 32px;
+}
+
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.flex.flex-row.pr-2>.flex.flex-col.block-content-wrapper>.flex.flex-row>.flex.flex-row.items-center {
+    align-items: baseline;
+}
+
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.flex.flex-row.pr-2 .block-marker {
+    font-size: 32px !important;
+    font-weight: bold !important;
+}
+
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.flex.flex-row.pr-2 .form-checkbox {
+    width: 22px;
+    height: 22px;
+    border-width: 0px;
+}
+
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.flex.flex-row.pr-2 .color-level {
+    font-size: initial;
+}
+
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.flex.flex-row.pr-2+.block-children-container>.block-children {
+    border-left: 0px;
+}
+
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.flex.flex-row.pr-2+.block-children-container>.block-children-left-border {
+    display: none;
+}
+
+.mb-4+div>.page-blocks-inner>div>div>.content>.blocks-container>div>div>.ls-block>.flex.flex-row.pr-2>.flex.flex-col.block-content-wrapper>.flex.flex-row>.flex-1.w-full>.block-content>.block-content-inner+.block-body:not(:empty) {
+    font-size: small;
+    font-weight: 400;
+    padding: 25px 5px;
+}
+
+.mb-4>.breadcrumb.block-parents.flex-row.flex-1.my-2 {
+    margin-left: 27px;
+}
+/* drill-down pages styling end */
+
+/* titles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Onest', sans-serif;}
+
+.ls-block h1 {
+	font-size: 1.8em !important;
+	font-weight: bold;
+    margin: 20px 0px;
+}
+
+.ls-block h2 {
+	font-size: 1.4m !important;
+	font-weight: bold;
+}
+
+.ls-block h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.ls-block h4 {
+	font-size: 1 em;
+	font-weight: bold;
+}
+
+.ls-block h5 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.ls-block h6 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+h1.title {
+	
+	font-family: 'Onest', sans-serif;
+	font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+
+/* Internal Page reference color */
+
+
+  :root {
+    --ls-font-family: 'Onest', sans-serif;
+    --ls-font-weight: 300;
+  }
+  html,
+body {
+  font-family: 'Onest', sans-serif;
+  font-weight: 300;
+}
+
+.page-properties a {
+    font-weight: 500;
+    color: #2a2b2c !important;
+}
+.page-property-value a {
+    color: #636e72;
+    font-weight: 300 !important;
+}
+
+.awLi-icon {
+    font-size: 1em !important;
+}
+
+.page-properties {
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.inline b {
+	font-weight: 500;
+}
+a.page-ref {
+    color: rgb(63, 62, 62);
+    font-weight: 400;
+  }
+ span.page-reference a {
+    font-weight: 500;
+  }
+  .cp__query-builder {
+    display: none;
+  }
+  .custom-query a {
+    font-weight: 300 !important;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Table styling  courtesy of  mia theme https://github.com/playerofgames/logseq-mia-theme/blob/master/mia_base.css */
+
+.table-wrapper > table {
+	table-layout: fixed;
+	width: 100%;
+	border-top: 1px var(--table-border-color) solid;
+	border-bottom: 1px var(--table-border-color) solid;
+	border-collapse: collapse;
+	font-variant-numeric: tabular-nums;
+	font-feature-settings: "tnum";
+}
+
+.table-wrapper :is(tr,tr:nth-child(even)) {
+	background: inherit;
+}
+
+.table-wrapper tbody {
+	border-top: 1px var(--table-border-color) solid;
+}
+
+.table-wrapper tbody > tr:not(:first-child) {
+	border-top: 1px var(--table-border-color) dotted;
+}
+
+.table-wrapper :is(th,td) {
+	font-size: var(--table-font-size, 90%);
+	line-height: calc(var(--content-line-height, 18pt)*0.83);
+	border-bottom: none;
+	vertical-align: top;
+	padding: 7px;
+}
+.table-wrapper :is(th,td) code {
+	font-size: 85%;
+}
+
+.table-wrapper th {
+	font-weight: bold;
+	text-transform: var(--table-heading-transform, "none");
+	font-size: var(--table-heading-font-size, 90%);
+}
+
+/* Hide extraneous stuff: help icon (just press ?) */
+.cp__sidebar-help-btn {
+	display: none;
+}
+
+/* Checkbox beautification */
+
+span.inline.done {
+	opacity: 1;
+	color: var(--ls-secondary-text-color);
+}
+
+.form-checkbox {
+	--ls-page-checkbox-color: var(--ls-tertiary-background-color);
+	--ls-page-checkbox-border-color: var(--ls-quaternary-background-color);
+
+	background-color: var(--ls-page-checkbox-color);
+	border: 1px solid var(--ls-page-checkbox-border-color);
+	border-radius: 5px;
+	opacity: 1;
+}
+
+.form-checkbox:checked:focus,
+.form-checkbox:checked {
+	background-color: var(--accent-color);
+	border: 1px solid var(--accent-color) !important;
+	opacity: 1 !important;
+}
+
+/* Make journal title spacing _identical_ to regular page title,
+   so that when you click title to focus on a day, there is no content shift */
+   #journals .journal-item:first-child {
+    margin-top: 0px;
+  }
+  .journal-title > h1 {
+    padding-left: 8px;
+    margin-left: -6px;
+  }
+  .journal-title,
+  .ls-page-title {
+    padding-top: 1.5px;
+    padding-bottom: 0.5px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  .ls-page-title > h1.title,
+  .journal-title > h1 {
+    margin-bottom: 0px;
+  }
+/* Selection lists (search, tag complete, etc.) */
+
+#ui__ac .chosen,
+.chosen {
+	--ls-primary-text-color: #fafafa;
+	--ls-link-ref-text-color: #eaeaea;
+	--ls-link-ref-text-hover-color: #fafafa;
+	--ls-quaternary-background-color: var(--accent-dark-color);
+	--ls-icon-color: var(--ls-primary-text-color);
+}
+
+#ui__ac .chosen {
+	background-color: var(--accent-dark-color);
+}
+
+.menu-link.chosen  {
+	color: var(--ls-primary-text-color) !important;
+}
+
+/* hide vim plugin mode selector */
+#injected-ui-item-vim-shortcut-mode-logseq-vim-shortcuts {
+  display: none;
+}
