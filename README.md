@@ -13,9 +13,7 @@ When drilled down, the parent bullet has its bullet hidden, font size increased,
 Courtesy of [@Zyrohex](https://discuss.logseq.com/t/style-changes-when-drilling-down-a-block-level/22051) from Logseq forums.
 
 ### Better looking tables
-![logseq-slavsko-theme-screenshot2-tables](./img/logseq-slavsko-theme-screenshot2-tables.jpg)
-
-
+![logseq-slavsko-theme-screenshot2-tables](./img/logseq-slavsko-theme-screenshot2-tables.png)
 
 
 ### Hidden query builder
