@@ -32,12 +32,12 @@ Alternatively you can search for a `custom.css` file from within your logseq lik
 ## Plugin compatibility
 
 ### Awesome Links Plugin
-[logseq-awesome-links](https://github.com/yoyurec/logseq-awesome-links)
-🟨 There's an issue with custom page icon positioning.
+- [logseq-awesome-links](https://github.com/yoyurec/logseq-awesome-links)
+- 🟨 There's an issue with custom page icon positioning.
 
 ### Bullet Threading Plugin
-[logseq-plugin-bullet-threading](https://github.com/pengx17/logseq-plugin-bullet-threading)
-🟩 Looks great!
+- [logseq-plugin-bullet-threading](https://github.com/pengx17/logseq-plugin-bullet-threading)
+- 🟩 Looks great!
 
 
 ## Licence
@@ -52,7 +52,7 @@ I am using the [Onest font](https://fonts.google.com/specimen/Onest), which look
 
 ## Bugs and feedback
 If you find a bug, file it under "Issues" with a short description and a screenshot.
-If you'd like to improve on the theme, please use a merge
+If you'd like to improve on the theme, please use a merge request.
 
 ## Slavsko mountains in summer
 ![slavsko](./img/slavsko.jpeg)
